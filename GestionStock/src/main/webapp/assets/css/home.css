@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Espacement entre le titre et la navigation */
+    align-items: center; /* Alignement vertical */
+    padding: 15px 20px;
+    background-color: #343a40; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 20px; /* Espacement en dessous de l'en-tête */
+}
+
+.header h1 {
+    margin: 0; /* Supprimer la marge par défaut */
+}
+
+.navbar a {
+    text-decoration: none; /* Supprimer le soulignement */
+    color: #ffffff; /* Couleur du texte blanche */
+    padding: 10px 15px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.navbar a:hover {
+    background-color: #495057; /* Couleur de fond au survol */
+}
+
+.menu {
+    text-align: center; /* Centrer le menu */
+}
+
+.menu nav p {
+    margin: 10px 0; /* Espacement entre les éléments du menu */
+}
+
+.menu a {
+    text-decoration: none; /* Supprimer le soulignement */
+    color: #007bff; /* Couleur du lien */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.menu a:hover {
+    color: #0056b3; /* Couleur au survol */
+}

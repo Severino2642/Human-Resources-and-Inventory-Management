@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centrer les éléments */
+    gap: 20px; /* Espace entre les liens */
+    background-color: #343a40; /* Couleur de fond sombre */
+    padding: 15px; /* Espacement autour des éléments */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+nav a {
+    text-decoration: none; /* Supprimer le soulignement */
+    color: #ffffff; /* Couleur du texte blanche */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis pour les liens */
+}
+
+nav a:hover {
+    background-color: #495057; /* Couleur de fond au survol */
+}
+
+nav p {
+    margin: 0; /* Supprimer la marge par défaut */
+    font-size: 1.2em; /* Taille de police plus grande */
+}

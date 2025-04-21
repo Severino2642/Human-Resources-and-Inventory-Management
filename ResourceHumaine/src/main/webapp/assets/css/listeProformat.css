@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+}
+
+.body {
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: auto; /* Centrer le contenu */
+    padding: 20px;
+    background: white; /* Couleur de fond du contenu */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px; /* Espacement en dessous du lien retour */
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Mettre le lien en gras */
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+h2 {
+    margin-bottom: 15px; /* Espacement en dessous du titre */
+    color: #343a40; /* Couleur du texte du titre */
+}
+
+.fournisseur {
+    margin-bottom: 20px; /* Espacement en dessous de chaque fournisseur */
+}
+
+details {
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ced4da; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    background-color: #f8f9fa; /* Couleur de fond douce */
+}
+
+summary {
+    cursor: pointer; /* Changer le curseur au survol */
+}
+
+.accept-link {
+    display: inline-block;
+    margin-top: 10px; /* Espacement au-dessus du lien d'acceptation */
+    color: #28a745; /* Couleur verte */
+    font-weight: bold; /* Mettre en gras */
+    text-decoration: none; /* Supprimer le soulignement */
+}
+
+.accept-link:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+table {
+    width: 100%; /* Prendre toute la largeur */
+    border-collapse: collapse; /* Fusionner les bordures */
+    margin-top: 10px; /* Espacement au-dessus du tableau */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Bordure grise pour les cellules */
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement à gauche du texte */
+}
+
+thead {
+    background-color: #343a40; /* Couleur de fond pour l'en-tête de table */
+    color: white; /* Couleur du texte de l'en-tête */
+}

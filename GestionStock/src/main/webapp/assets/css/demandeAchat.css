@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+}
+
+.body {
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: auto; /* Centrer le contenu */
+    padding: 20px;
+    background: white; /* Couleur de fond du contenu */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px; /* Espacement en dessous du lien retour */
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Mettre le lien en gras */
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+h2 {
+    margin-bottom: 15px; /* Espacement en dessous du titre */
+    color: #343a40; /* Couleur du texte du titre */
+}
+
+.demand-section {
+    margin-bottom: 20px; /* Espacement entre les sections de demande */
+}
+
+table {
+    width: 100%; /* Prendre toute la largeur */
+    border-collapse: collapse; /* Fusionner les bordures */
+}
+
+thead {
+    background-color: #343a40; /* Couleur de fond pour l'en-tête de table */
+    color: white; /* Couleur du texte de l'en-tête */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Bordure grise pour les cellules */
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement à gauche du texte */
+}
+
+.action-link {
+    color: #007bff; /* Couleur du lien d'action */
+    text-decoration: none; /* Supprimer le soulignement */
+}
+
+.action-link:hover {
+    text-decoration: underline; /* Souligner au survol */
+}

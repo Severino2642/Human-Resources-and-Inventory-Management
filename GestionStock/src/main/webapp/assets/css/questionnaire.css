@@ -1,0 +1,38 @@
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.question {
+    
+    display: none;
+}
+
+@keyframes slideGauche {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideDroite {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.question.active {
+    display: block;
+}

@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px; /* Espacement en dessous du lien retour */
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Mettre le lien en gras */
+}
+
+.back-link:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+.body {
+    max-width: 800px; /* Largeur maximale du contenu */
+    margin: auto; /* Centrer le contenu */
+    padding: 20px;
+    background: white; /* Couleur de fond du contenu */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+h2 {
+    margin-bottom: 15px; /* Espacement en dessous du titre */
+    color: #343a40; /* Couleur du texte du titre */
+}
+
+form div {
+    margin-bottom: 15px; /* Espacement entre les éléments du formulaire */
+}
+
+button {
+    background-color: #28a745; /* Couleur du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure */
+    padding: 10px 15px; /* Espacement interne */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer au survol */
+}
+
+button:hover {
+    background-color: #218838; /* Couleur du bouton au survol */
+}
+
+table {
+    width: 100%; /* Prendre toute la largeur */
+    border-collapse: collapse; /* Fusionner les bordures */
+    margin-top: 10px; /* Espacement au-dessus du tableau */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Bordure grise pour les cellules */
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement à gauche du texte */
+}
+
+thead {
+    background-color: #343a40; /* Couleur de fond pour l'en-tête de table */
+    color: white; /* Couleur du texte de l'en-tête */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ced4da; /* Bordure grise claire */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #80bdff; /* Couleur de la bordure au focus */
+    outline: none; /* Supprimer le contour par défaut */
+}

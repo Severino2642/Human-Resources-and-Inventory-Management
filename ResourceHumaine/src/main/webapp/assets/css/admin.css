@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centrer le contenu */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+}
+
+.login-container {
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 30px; /* Espacement interne */
+    width: 350px; /* Largeur fixe du formulaire */
+}
+
+h2 {
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+    color: #343a40; /* Couleur du titre */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espacement entre les groupes de champs */
+}
+
+label {
+    display: block; /* Faire en sorte que le label prenne toute la largeur */
+    margin-bottom: 5px; /* Espacement en dessous du label */
+    font-weight: bold; /* Mettre le label en gras */
+}
+
+input {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 1em; /* Taille de police */
+}
+
+button {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 10px; /* Espacement interne */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprimer la bordure */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer au survol */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+a {
+    display: block; /* Faire en sorte que le lien prenne toute la largeur */
+    text-align: center; /* Centrer le lien */
+    margin-top: 15px; /* Espacement au-dessus du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    color: #007bff; /* Couleur du lien */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
